@@ -1,0 +1,106 @@
+/* 
+Make use of at least these style properties:
+
+Typography
+- font-family (done)
+- font-size (done)
+- font-weight (done)
+- line-height (done)
+- color (done)
+
+Layout
+- flex (done)
+- margin (done)
+- padding (done) 
+
+Background
+- background-color (done)
+- border-color (done)
+- border-width (done) 
+- border-style (done) 
+*/ 
+
+.background{
+    background-color: rgb(80, 134, 236);
+}
+
+.title{
+    font-size: 40px;
+    font-family: "Aclonica";
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.about-me{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.education{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 1px;
+    line-height: normal;
+}
+
+.work{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 1px;
+    line-height: normal;
+}
+
+.skills{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 1px;
+    line-height: normal;
+}
+
+.hobby{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 1px;
+    line-height: normal;
+}
+
+.links{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+    padding: 1px;
+    line-height: normal;
+    list-style-type: none;
+}
+
+.fav{
+    font-size: 25px;
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+
+ul.flex{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+}
