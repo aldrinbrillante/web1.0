@@ -64,7 +64,7 @@ nav ul a:hover {
 	margin: auto;
 }
 
-#about-me h2, #suzanne-ciani p {
+#about-me h2, #part-4 p {
 	margin: 0 0 1rem 0;
 }
 
@@ -88,11 +88,11 @@ nav ul a:hover {
 
 
 /* Create some cards in this section */
-#about-you {
-	background-color: #26323f;
+#part-2 {
+	background-color: #0867cc;
 }
 
-#about-you ul {
+#part-2 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -100,7 +100,7 @@ nav ul a:hover {
 	justify-content: center;
 }
 
-#about-you > h2 {
+#part-2 > h2 {
 	margin: 1em;
 	font-size: 3em;
 	text-align: center;
@@ -126,23 +126,23 @@ nav ul a:hover {
 	margin: 1rem;
 }
 
-#wendy-carlos {
+#part-3 {
 	background-color: #5856D6;
-	background-image: url(images/carlos-0.jpg);
-	background-size: cover;
+	background-image: url(images/jp1.png);
+	background-size: 100% 100%; /* This scales the image full on screen */ 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#wendy-carlos > div {
+#part-3 > div {
 	background-color:rgba(255, 255, 255, 0.65);
 	padding: 2em;
 	width: 75%;
 	max-width: 700px;
 }
 
-#wendy-carlos  h2 {
+#part-3  h2 {
 	font-size: 4em;
 	margin: 0 0 1rem 0;
 	text-align: center;
@@ -150,7 +150,7 @@ nav ul a:hover {
 
 
 /* Style this */
-#suzanne-ciani {
+#part-4 {
 	background-color: #461c3b;
 	display: flex;
 	color: #fff;
@@ -158,34 +158,35 @@ nav ul a:hover {
 	background-size: cover;
 }
 
-#suzanne-ciani > div {
+#part-4 > div {
 	display: flex;
 	justify-content: center;
-	width: 75%;
+	width: 90%;
 	margin: auto;
 }
 
-#suzanne-ciani h2, #suzanne-ciani p {
+#part-4 h2, #part-4 p {
 	margin: 0 0 1rem 0;
 }
 
-#suzanne-ciani h2 {
+#part-4 h2 {
 	font-size: 2em;
 }
 
-#suzanne-ciani > div > div:nth-child(1) {
+#part-4 > div > div:nth-child(1) {
 	flex: 3;
 	margin: 0 2em 0 0;
 }
 
-#suzanne-ciani > div > div:nth-child(2) {
+#part-4 > div > div:nth-child(2) {
 	flex: 2;
 }
 
-#suzanne-ciani > div img {
+#part-4 > div img {
 	width: 100%;
 	box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
 }
+
 
 
 #contact {
